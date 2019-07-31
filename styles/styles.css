@@ -37,6 +37,15 @@ h2 {
     line-height: 28.8px;
 }
 
+h3 {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 21.6px;
+    text-align: center;  
+}
+
 /* NAVBAR */
 nav img {
     height: 70px;
@@ -123,4 +132,22 @@ nav h1 {
 
 .how-it-works-p {
     margin-bottom: 105px;
+}
+
+.img-container {
+    padding-bottom: 80px;
+}
+
+.main-h3 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.img-main {
+    height: 165px;
+}
+
+.language-container {
+    background-color: #f3f3f3;
+    padding-top:70px;
 }
