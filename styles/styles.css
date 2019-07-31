@@ -253,3 +253,15 @@ nav h1 {
     background-color: rgb(106,191,195, 0.8);
     cursor: pointer;
 }
+
+/* FOOTER */ 
+
+.footer h1 {
+    color: #cc9543;
+    font-family: "norse bold", sans-serif;
+    font-size: 25.6px;
+    letter-spacing: 0.4px;
+    line-height: 38.4px;
+    text-align: center;
+    padding-left: 12px;
+}
