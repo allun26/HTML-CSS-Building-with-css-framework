@@ -8,4 +8,50 @@ src: url(/fonts/norse.regular.otf)
 @font-face {   
     font-family: "norse bold";    
     src: url(/fonts/norse.bold.otf)
-    }
+
+}
+
+/* NAVBAR */
+nav img {
+    height: 70px;
+    width: 52px;
+}
+
+nav h1 {
+    color: #cc9543;
+    font-family: "norse bold", sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.nav-list {
+    height: 90px;
+}
+
+.nav-list ul li a {
+    color:rgb(74,74,74,0.7);
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-list ul li a:hover {
+    color: black;
+}
+
+#faq {
+    padding-right: 8px;
+}
+
+#sign-up {
+    border-left: 2px solid rgb(74,74,74,0.7);
+    padding-left: 8px;
+}
