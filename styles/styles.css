@@ -1,0 +1,11 @@
+/* FONTS */
+
+@font-face {   
+font-family: "norse regular";    
+src: url(/fonts/norse.regular.otf)
+}
+
+@font-face {   
+    font-family: "norse bold";    
+    src: url(/fonts/norse.bold.otf)
+    }
