@@ -216,3 +216,40 @@ nav h1 {
 .success-figure figcaption {
     padding-left: 20px;
 }
+
+.stories-link {
+    color: rgb(74,74,74,0.7);
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.stories-link:hover {
+    color: black;
+}
+
+.subscribe-section p {
+    color: rgb(74,74,74,0.7);
+    font-size: 35.2px;
+    letter-spacing: 0.2px;
+    line-height: 52.8px;
+    text-align: center;
+}
+
+.subscribe-section button {
+    background-color: #6abfc3;
+    border-radius: 3.2px;
+    box-shadow:rgba(0, 0, 0, 0.5) 0px 0.8px 4px 0px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding: 16px 56px;
+    text-align: center;
+}
+
+.subscribe-section button:hover {
+    background-color: rgb(106,191,195, 0.8);
+    cursor: pointer;
+}
