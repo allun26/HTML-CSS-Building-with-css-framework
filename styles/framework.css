@@ -215,8 +215,6 @@ table {
 
 h2{ font-weight: bold; color: black; }
 
-h2:hover{ text-decoration: underline black; }
-
 p{ color: black; }
 
 h3{ color: gray;  }
