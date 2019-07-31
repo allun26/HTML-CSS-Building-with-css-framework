@@ -1,3 +1,7 @@
+body {
+    background-color: #f8f8f8;
+}
+
 /* FONTS */
 
 @font-face {   
@@ -9,6 +13,18 @@ src: url(/fonts/norse.regular.otf)
     font-family: "norse bold";    
     src: url(/fonts/norse.bold.otf)
 
+}
+
+a, p, h1, h2, h3, h4 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: #4a4a4a;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    line-height: 33.84px;
+    opacity: 0.7;
 }
 
 /* NAVBAR */
@@ -33,7 +49,6 @@ nav h1 {
 
 .nav-list ul li a {
     color:rgb(74,74,74,0.7);
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.2px;
@@ -54,4 +69,33 @@ nav h1 {
 #sign-up {
     border-left: 2px solid rgb(74,74,74,0.7);
     padding-left: 8px;
+}
+
+/* Header */
+
+.header-h1 {
+    color: #ce973e;
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    line-height: 43.2px;
+    padding-bottom: 30px;
+}
+
+.header-p {
+    margin-bottom: 60px;
+}
+
+.header-button {
+    background-color: #6abfc3;
+    border-radius: 3.2px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0.8px 4px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    padding: 16px 56px 16px 56px;
+
 }
