@@ -64,6 +64,7 @@ nav h1 {
 
 .nav-list {
     height: 90px;
+    float: right;
 }
 
 .nav-list ul li a {
@@ -255,6 +256,10 @@ nav h1 {
 }
 
 /* FOOTER */ 
+.footer {
+    background-color: white;
+    height: 275px;
+}
 
 .footer h1 {
     color: #cc9543;
@@ -264,4 +269,37 @@ nav h1 {
     line-height: 38.4px;
     text-align: center;
     padding-left: 12px;
+}
+
+.fab {
+    color: #ce973e;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.icons {
+    height: 109px;
+}
+
+.footer-list {
+    height: 109px;
+}
+
+.footer-list ul {
+   margin-left: 60px;
+}
+
+.footer-list ul li a {
+    color:rgb(74,74,74,0.7);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    padding: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-list ul li a:hover {
+    color: black;
 }
