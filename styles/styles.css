@@ -137,7 +137,10 @@ nav h2 {
 
 .img-container {
     padding-bottom: 80px;
-    width: 1200px;
+}
+
+.img-container figure {
+    margin-bottom: 20px;
 }
 
 .main-h3 {
@@ -147,6 +150,11 @@ nav h2 {
 
 .img-main {
     height: 165px;
+}
+
+.languages figure {
+    max-height: 240px;
+    min-width: 170px;
 }
 
 .language-container {
@@ -303,4 +311,10 @@ nav h2 {
 
 .footer-list ul li a:hover {
     color: black;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-list{ 
+    display: none;
+    }
 }

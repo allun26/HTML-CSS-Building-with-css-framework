@@ -324,6 +324,13 @@ h3{ color: gray;  }
     .col-12-md {
         width: 100%;
     }
+
+    .reset-flex-md {
+        align-items: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+    }
 }
 
 /* Small Screens */
@@ -375,5 +382,12 @@ h3{ color: gray;  }
     
     .col-12-sm {
         width: 100%;
+    }
+
+    .reset-flex-sm {
+        align-items: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
     }
 }
